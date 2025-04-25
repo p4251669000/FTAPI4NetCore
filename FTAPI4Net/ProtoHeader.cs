@@ -11,7 +11,7 @@ namespace Futu.OpenApi
         bool isLittleEndian = true;
         byte[] buf = new byte[4];
 
-        internal BinaryDataReader(bool isLittleEndian)
+        internal BinaryDataReader(bool isLittleEndian)  
         {
             this.isLittleEndian = isLittleEndian;
         }
